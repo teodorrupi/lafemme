@@ -471,6 +471,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                     },
                     error: function (data) {
                         alert("Error occurd! Please try again");
+                        $cfsubmit.text("Submit");
                     }
                 });
 

@@ -43,7 +43,7 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$to = 'sofiyamarinova@gmail.com';  // please change this email id
+	$to = 'contact@lafemme.dance';  // please change this email id
 	$subject = 'LaFemme - Contacat';
 
 	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
