@@ -42,7 +42,7 @@
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
-	$from = $email;
+	$from = 'contact@lafemme.dance';
 	$to = 'contact@lafemme.dance';  // please change this email id
 	$subject = 'LaFemme - Contacat';
 
